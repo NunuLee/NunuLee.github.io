@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Resume v7.0.5 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2022 Start Bootstrap
+* Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
 */
 /*!
@@ -138,12 +138,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
-}
-@media (min-width: 1200px) {
-  h4, .h4 {
-    font-size: 1.5rem;
-  }
+  font-size: 1rem;
 }
 
 h5, .h5 {
@@ -7611,7 +7606,7 @@ textarea.form-control-lg {
 }
 
 .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: 1rem !important;
 }
 
 .fs-5 {
@@ -11243,10 +11238,6 @@ textarea.form-control-lg {
   .fs-3 {
     font-size: 2rem !important;
   }
-
-  .fs-4 {
-    font-size: 1.5rem !important;
-  }
 }
 @media print {
   .d-print-inline {
@@ -11320,6 +11311,16 @@ h1, .h1 {
 
 p.lead {
   font-size: 1.15rem;
+  font-weight: 400;
+}
+
+p.normal {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+p.small {
+  font-size: 0.8rem;
   font-weight: 400;
 }
 
